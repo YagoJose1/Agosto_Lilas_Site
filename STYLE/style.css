@@ -39,6 +39,8 @@ nav ul li a {
   font-size: 1.2em;
 }
 
+
+
 main {
   padding: 20px;
 }
@@ -67,6 +69,12 @@ section h2 {
   border-radius: 8px;
   width: 30%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: .3s;
+}
+
+.timeline-item:hover{
+  background-color: #9c27b0;
+  color: white;
 }
 
 .testimonials {
@@ -83,6 +91,12 @@ section h2 {
   flex: 1;
   min-width: 200px;
   text-align: center;
+  transition: .3s;
+}
+
+.testimonial:hover{
+  background-color: #9c27b0;
+  color: white;
 }
 
 .testimonial img {
@@ -106,4 +120,23 @@ footer .social-media a {
 footer .social-media img {
   width: 30px;
   height: 30px;
+}
+
+.rights {
+  background-color: #D8BFD8; 
+  color: #4B0082;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  width: 100%;
+  position: fixed;
+  bottom: 0;   
+  left: 0;
+  display: none;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.rights p {
+  margin: 0;
 }
